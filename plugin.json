@@ -1,0 +1,9 @@
+{
+  "name": "admin-qol",
+  "displayName": "Admin QOL",
+  "author": "Mithra",
+  "main": "adminqol.AdminQolPlugin",
+  "description": "Admin quality-of-life commands and team assignment UI for Mindustry servers.",
+  "version": "1.2",
+  "minGameVersion": "146"
+}
