@@ -197,7 +197,7 @@ public class Commands{
             player.sendMessage(sb.toString());
         });
 
-        handler.<Player>register("nextmap", "<name/index/clear...> [loop]", "Set the next map. Add 'loop' to repeat it after each game.", (args, player) -> {
+        handler.<Player>register("nextmap", "<name/index/clear...>", "Set the next map. Add 'loop' to repeat it after each game.", (args, player) -> {
             if(!requireAdmin(player)) return;
 
             String raw = args[0].trim();
